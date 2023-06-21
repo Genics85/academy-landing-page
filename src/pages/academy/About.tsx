@@ -118,7 +118,7 @@ function About() {
           <img src={stats2} className="w-full" alt="" />
         </div>
       </div>
-      <div className="flex flex-col w-full md:flex-row gap-4 ">
+      <div className="flex flex-col md:justify-center w-full md:flex-row gap-4 ">
         <FeatureCard doc={doc} title={<>Managing <br/> Courses</>} content="something" />
         <FeatureCard doc={person} title={<>Messaging & <br/>Notifications</>} content="something" />
         <FeatureCard doc={scope} title={<>Course<br/>Calendar</>} content="something" />
